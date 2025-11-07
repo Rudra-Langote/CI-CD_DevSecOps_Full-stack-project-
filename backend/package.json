@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "fullstack": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "backend": "nodemon backend/index.js",
+    "backend": "nodemon index.js",
     "frontend": "cd frontend && npm run dev"
   },
   "keywords": [],
@@ -22,6 +22,6 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.1",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.1.10"
   }
 }
